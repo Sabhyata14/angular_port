@@ -3,29 +3,29 @@ agent any
     stages { 
         stage ('Build') { 
           steps { 
-              echo 'Build Print'
+              echo 'Build Print:Test'
           }
         }
         stage ('Test') { 
         steps { 
-               echo 'Test Print'
+               echo 'Test Print:Test'
           }
         }
         stage ('QA') { 
         steps { 
-                echo 'QA Print'
+                echo 'QA Print:Test'
           }
          
         }
         stage ('Deploy') { 
         steps { 
-                 echo 'Deploy Print'
+                 echo 'Deploy Print:Test'
           }
          
         }
         stage ('Monitor') { 
         steps { 
-                  echo 'Monitor Print'
+                  echo 'Monitor Print:Test'
           }
          
         }
